@@ -23,8 +23,8 @@ termux-setup-storage
 
 # Create required directories
 echo -e "\n${BLUE}[+] Creating workspace...${RESET}"
-mkdir -p $HOME/437Phisher
-cd $HOME/437Phisher
+mkdir -p $HOME/Phisher
+cd $HOME/Phisher
 
 # Clone the repository
 echo -e "\n${BLUE}[+] Cloning 437Phisher...${RESET}"
