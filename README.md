@@ -40,14 +40,50 @@ Phisher is a bash-based automated phishing tool that creates mock login pages fo
    - Status notifications
 
 ## Installation
-
+### Quick Start (Recommended)
 ```bash
-# Quick install
 curl -O https://raw.githubusercontent.com/himeshwer/Phisher/main/setup-termux.sh
 chmod +x setup-termux.sh
 ./setup-termux.sh
 ```
+### Manual Installation
+```bash
+# Install git
+apt update
+apt install git -y
 
+# Clone the repository
+git clone https://github.com/himeshwer/Phisher
+
+# Navigate to directory
+cd Phisher
+
+# Make script executable
+chmod +x phisher.sh
+
+# Run the script
+./phisher.sh
+```
+### Starting Phisher
+After installation, you can start the tool by:
+```bash
+# If installed via setup script
+phisher
+
+# OR run directly
+./phisher.sh
+```
+### Updating
+```bash
+# Navigate to directory
+cd Phisher
+
+# Pull latest changes
+git pull
+
+# Run the tool
+./phisher.sh
+```
 ## Legal Disclaimer
 
 This tool is provided for educational and testing purposes only. Users are responsible for obtaining proper authorization before testing on any system or network.
