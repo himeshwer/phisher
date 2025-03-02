@@ -7,7 +7,7 @@ CYAN="\033[1;36m"
 BLUE="\033[1;34m"
 RESET="\033[0m"
 
-echo -e "${CYAN}[*] Setting up Termux for 437Phisher...${RESET}\n"
+echo -e "${CYAN}[*] Setting up Termux for Phisher...${RESET}\n"
 
 # Update package list
 echo -e "${BLUE}[+] Updating package list...${RESET}"
