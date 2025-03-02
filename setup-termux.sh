@@ -27,7 +27,7 @@ mkdir -p $HOME/Phisher
 cd $HOME/Phisher
 
 # Clone the repository
-echo -e "\n${BLUE}[+] Cloning 437Phisher...${RESET}"
+echo -e "\n${BLUE}[+] Cloning Phisher...${RESET}"
 git clone https://github.com/himeshwer/phisher.git .
 
 # Set permissions
