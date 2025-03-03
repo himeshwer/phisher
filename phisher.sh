@@ -136,7 +136,7 @@ install_cloudflared() {
     if command -v cloudflared >/dev/null 2>&1; then
         echo -e "${GREEN}[${WHITE}+${GREEN}]${CYAN} Cloudflared already installed."
         if [ ! -e ".server/cloudflared" ]; then
-            ln -sf $(which cloudflared) .server/cloudflared
+            ln -sf $(which cloudflared) cloudflared
         fi
         return 0
     fi
