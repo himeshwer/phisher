@@ -49,6 +49,7 @@ incoming
 # Install git and other stuffs
 apt update -y
 apt install -y git curl wget php openssh python
+pkg install ncurses-bin
 
 # Clone the repository
 git clone https://github.com/himeshwer/Phisher
