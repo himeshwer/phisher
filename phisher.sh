@@ -661,4 +661,4 @@ kill_pid
 dependencies
 install_cloudflared
 main_menu
-setup_directories()
+setup_directories
