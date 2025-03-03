@@ -61,7 +61,7 @@ chmod +x phisher.sh
 
 # Run the script
 cd Phisher
-
+dos2unix phisher.sh
 ./phisher.sh
 ```
 ### Starting Phisher
