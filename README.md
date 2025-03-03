@@ -88,5 +88,5 @@ This tool is provided for educational and testing purposes only. Users are respo
 ## Credits
 
 - Original Author: [RenderBolt](https://github.com/RenderBolt96)
-- Modified by: [himeshwer](https://github.com/himeshwer) aka [Lav](https://github.com/lavsarkari)
+- Modified by: [himeshwer](https://github.com/himeshwer) 
 - Version: 1.0
