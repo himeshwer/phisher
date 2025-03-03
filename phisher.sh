@@ -296,13 +296,13 @@ start_cloudflared() {
     echo -ne "\n\n${RED}[${BLUE}-${RED}]${MAGENTA} Starting tunnel..."
     
     # Check cloudflared binary
-    if [[ ! -x .server/cloudflared ]]; then
+    if [[ ! -x cloudflared ]]; then
         echo -e "\n${RED}[${RED}!${RED}]${RED} Cloudflared not found or not executable."
         cleanup
     fi
 
     # Start cloudflared with proper error handling
-    if ! ./.server/cloudflared tunnel -url "http://$HOST:$PORT" --logfile .cld.log > /dev/null 2>&1 & then
+    if ! cloudflared tunnel -url "http://$HOST:$PORT" --logfile .cld.log > /dev/null 2>&1 & then
         echo -e "\n${RED}[${RED}!${RED}]${RED} Failed to start cloudflared."
         cleanup
     fi
